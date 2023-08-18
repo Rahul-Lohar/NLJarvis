@@ -1,0 +1,13 @@
+datetime
+psutil
+pyautogui
+requests
+pyjokes
+numpy
+nltk
+json
+torch
+pyttsx3
+googletrans
+speech_recongnition
+
