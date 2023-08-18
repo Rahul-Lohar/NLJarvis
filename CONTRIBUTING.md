@@ -2,7 +2,7 @@
 
 This documentation contains a set of guidelines to help you during the contribution process.
 
-## Submitting Contributions👩‍📈
+## Submitting Contributions👨‍💻📈
 
 Below you will find the process and workflow used to review and merge your changes.
 
