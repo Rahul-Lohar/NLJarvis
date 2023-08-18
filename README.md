@@ -18,6 +18,27 @@ It can do a lot of cool things, some of them being:
 - Can take screenshot and save it with custom filename
 
 
+## Installation
+  -First Clone the repo
+  - Make reuired path changes according to your convenience of folder path for reuired features.
+  - Run Trained.py file
+  - After Running Trained.py file Run Jarvis.py File.
+  - 
+## Code Structure
+
+
+    ├── NLJarvis             # Main folder for features 
+    │   ├── Database          # Contains required files.
+    │   ├── features        # All functionalities of JARVIS 
+    ├── requirements.txt    # all dependencies of the program
+
+- The code structure if pretty simple. The code is completely modularized and is highly customizable
+- To add a new feature:
+  -  Make a new python file of feature or can edit Task.py file, write the feature's function you want to include
+  - Make edit in intents,json file with possible words or command to execute the feature.
+  - edit Jarvis.py to call function of required feature.
+
+
 ## Contribute
 Please read [CONTRIBUTING.md](https://github.com/Gladiator07/JARVIS/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
@@ -25,6 +46,5 @@ Please read [CONTRIBUTING.md](https://github.com/Gladiator07/JARVIS/blob/master/
 This project is licensed under [MIT License](https://github.com/Rahul-Lohar/NLJarvis/blob/22eed329c71df792d4981edc3a30a3277629455e/LICENSE) 2023 Rahul Lohar
 
 ## Future Improvements
-- Generalized conversations can be made possible by incorporating Natural Language Processing
-- GUI can be made more nicer to look at and functional
+- GUI can be made for easy interaction with jarvis.
 - More functionalities can be added
