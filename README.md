@@ -22,7 +22,7 @@ It can do a lot of cool things, some of them being:
 Please read [CONTRIBUTING.md](https://github.com/Gladiator07/JARVIS/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
 ## License
-This project is licensed under [MIT License](https://github.com/Rahul-Lohar/NLJarvis/LICENSE) 2023 Rahul Lohar
+This project is licensed under [MIT License](https://github.com/Rahul-Lohar/NLJarvis/blob/22eed329c71df792d4981edc3a30a3277629455e/LICENSE) 2023 Rahul Lohar
 
 ## Future Improvements
 - Generalized conversations can be made possible by incorporating Natural Language Processing
