@@ -1,0 +1,144 @@
+{
+    "intents":[
+
+        {
+            "tag":"greeting",
+            "patterns":[
+                "hello","hii","hey","wake up","Jarvis"
+            ],
+            "responses":[
+                "Hello sir","How are you sir","Always for you sir","Hello","Here's your Assistant sir"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":[
+                "Bye","good bye","hey","see you later","sleep","exit"
+            ],
+            "responses":[
+                "Bye sir","bye","see you later sir","I am going.","It will be nice to meet you again sir","Good bye sir"
+            ]
+        },
+        {
+            "tag":"Health",
+            "patterns":[
+                "How are you Jarvis","aree you fine","are you alright ?"
+            ],
+            "responses":[
+                "yes Sir, I am fine","perfect","Cool","I am fine Sir , what's about you sir"
+            ]
+        }
+        ,
+        {
+            "tag":"identity",
+            "patterns":[
+                "your Name", "what is your name","who are you","what are you","naam"
+            ],
+            "responses":[
+                "My Name is Jarvis", "Jarvis", " I am Jarvis", "An A.I. Assitant", "Great Assitant"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":[
+                "what is time", "time","samay","what's time"
+            ],
+            "responses":[
+                "time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":[
+                "What is date", "date","tareek","what's the date"
+            ],
+            "responses":[
+                "date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":[
+                "What is day", "today","din","what's the day"
+            ],
+            "responses":[
+                "day"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":[
+                "Who is", "About","What is ","wikipedia"
+            ],
+            "responses":[
+                "wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":[
+                "google search", "google","search "
+            ],
+            "responses":[
+                "google"
+            ]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":[
+                "Take screenshot", "Screenshots","screenshots","take ss","Take snapshot","take snapit","take a pic"
+            ],
+            "responses":[
+                "screenshot"
+            ]
+        }
+        ,
+        {
+            "tag":"open",
+            "patterns":[
+                 "open cmd","open powerpoint","open command prompt"
+            ],
+            "responses":[
+                "open"
+            ]
+        },
+        {
+            "tag":"close",
+            "patterns":[
+                "close cmd","close powerpoint","close command prompt"
+            ],
+            "responses":[
+                "close"
+            ]
+        }
+        
+
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
