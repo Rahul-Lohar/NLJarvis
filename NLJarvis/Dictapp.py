@@ -14,7 +14,7 @@ engine.setProperty("rate", 200)
 #     engine.say(audio)
 #     engine.runAndWait()
 
-dictapp = {"cmd": "cmd",
+dictapp = {"cmd": "cmd","paint": "MSpaint", "word": "winword", "excel": "excel",
            "chrome": "chrome", "vscode": "code", "powerpoint": "powerpnt"}
 
 

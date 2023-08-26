@@ -105,7 +105,7 @@
         {
             "tag":"open",
             "patterns":[
-                 "open cmd","open powerpoint","open command prompt"
+                 "open cmd","open powerpoint","open command prompt","open word","open excel","open paint"
             ],
             "responses":[
                 "open"
@@ -123,7 +123,7 @@
         {
             "tag":"close",
             "patterns":[
-                "close cmd","close powerpoint","close command prompt"
+                "close cmd","close powerpoint","close command prompt","close word","close excel","close paint"
             ],
             "responses":[
                 "close"
