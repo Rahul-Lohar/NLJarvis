@@ -70,6 +70,8 @@ def Main():
                     NonInputExecution(reply)
                 elif "screenshot" in reply:
                     NonInputExecution(reply)
+                elif "jokes" in reply:
+                    NonInputExecution(reply)
                 elif "wikipedia" in reply:
                     InputExecution(reply, result)
                 elif "google" in reply:
