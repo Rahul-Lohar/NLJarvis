@@ -11,6 +11,15 @@
             ]
         },
         {
+            "tag":"jokes",
+            "patterns":[
+                "tell me a joke", "joke sunao","joke bolo","jokes","jokes bol"
+            ],
+            "responses":[
+                "jokes"
+            ]
+        },
+        {
             "tag":"bye",
             "patterns":[
                 "Bye","good bye","hey","see you later","sleep","exit"
