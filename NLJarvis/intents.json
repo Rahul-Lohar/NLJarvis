@@ -20,6 +20,15 @@
             ]
         },
         {
+            "tag":"jokes",
+            "patterns":[
+                "tell me a joke", "joke sunao","joke bolo","jokes","jokes bol"
+            ],
+            "responses":[
+                "jokes"
+            ]
+        },
+        {
             "tag":"Health",
             "patterns":[
                 "How are you Jarvis","aree you fine","are you alright ?"
