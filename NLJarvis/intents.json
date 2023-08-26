@@ -103,6 +103,15 @@
             ]
         },
         {
+            "tag":"weather",
+            "patterns":[
+                "weather", "temperature","tapman","temperature of","degree of temperature","garmi"
+            ],
+            "responses":[
+                "weather"
+            ]
+        },
+        {
             "tag":"close",
             "patterns":[
                 "close cmd","close powerpoint","close command prompt"
