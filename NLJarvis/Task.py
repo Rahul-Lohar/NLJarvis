@@ -56,6 +56,16 @@ def weather():
     else:
         Say(" City Not Found ")
 
+def cpu():
+    usage = str(psutil.cpu_percent())
+    Say('CPU usage is at ' + usage)
+    # print('CPU usage is at ' + usage)
+    battery = psutil.sensors_battery()
+    Say("Battery is at")
+    Say(battery.percent)
+    # print("battery is at:" + str(battery.percent))
+
+
 
 def NonInputExecution(query):
     query = str(query)
@@ -70,6 +80,8 @@ def NonInputExecution(query):
         screenshot()
     elif ("weather" in query or "temperature" in query):
         weather()
+    elif ( "cpu" in query or "battery" in query):
+        cpu()
 
 
 # Input Function

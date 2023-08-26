@@ -27,8 +27,17 @@
             "responses":[
                 "yes Sir, I am fine","perfect","Cool","I am fine Sir , what's about you sir"
             ]
-        }
-        ,
+        },
+        {
+            "tag":"cpu",
+            "patterns":[
+                "Battery", "Battery percentage","cpu","reamaining Battery","remaining battery percentage"
+            ],
+            "responses":[
+                "cpu"
+            ]
+        },
+        
         {
             "tag":"identity",
             "patterns":[
