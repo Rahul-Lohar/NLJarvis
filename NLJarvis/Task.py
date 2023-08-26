@@ -65,6 +65,10 @@ def cpu():
     Say(battery.percent)
     # print("battery is at:" + str(battery.percent))
 
+def jokes():
+    j = pyjokes.get_joke()
+    print(j)
+    Say(j)
 
 
 def NonInputExecution(query):
@@ -82,7 +86,8 @@ def NonInputExecution(query):
         weather()
     elif ( "cpu" in query or "battery" in query):
         cpu()
-
+    elif ("tell me a joke" in query or "joke" in query):
+        jokes()
 
 # Input Function
 
