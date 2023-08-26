@@ -62,7 +62,7 @@ git checkout -b fix-issue-<ISSUE-NUMBER>
 
 11. Wait for your pull request to be reviewed and merged.
 
->NOTE: Please make sure to follow the [Code of conduct](https://github.com/akshitagupta15june/Face-X/blob/master/CODE_OF_CONDUCT.md) while contributing.
+>NOTE: Please make sure to follow the [Code of conduct](https://github.com/Rahul-Lohar/NLJarvis/blob/2e0fdfa7647015dc64612b5b36ef7e8ef966d2e4/CODE_OF_CONDUCT.md) while contributing.
 
 
 ## Alternatively, using GitHub Desktop: 
