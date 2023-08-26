@@ -35,7 +35,7 @@ Name = "Jarvis"
 
 def Main():
     sentence = listen()
-    result =str(sentence)
+    result = str(sentence)
     if sentence == "bye":
         exit()
 
@@ -63,6 +63,8 @@ def Main():
                 elif "date" in reply:
                     NonInputExecution(reply)
                 elif "day" in reply:
+                    NonInputExecution(reply)
+                elif "weather" in reply:
                     NonInputExecution(reply)
                 elif "screenshot" in reply:
                     NonInputExecution(reply)
