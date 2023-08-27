@@ -138,6 +138,16 @@
                 "close"
             ]
         }
+        ,
+        {
+            "tag":"news",
+            "patterns":[
+                "news","tell me a news", "give me some news","tell me a news"
+            ],
+            "responses":[
+                "news"
+            ]
+        }
         
 
     ]

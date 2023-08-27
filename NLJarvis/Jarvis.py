@@ -80,6 +80,8 @@ def Main():
                     InputExecution(reply, result)
                 elif "close" in reply:
                     InputExecution(reply, result)
+                elif "news" in reply:
+                    InputExecution(reply, result)
                 else:
 
                     Say(reply)
