@@ -68,6 +68,8 @@ def Main():
                     NonInputExecution(reply)
                 elif "cpu" in reply:
                     NonInputExecution(reply)
+                elif "window" in reply:
+                    NonInputExecution(reply)
                 elif "jokes" in reply:
                     NonInputExecution(reply)
                 elif "screenshot" in reply:
