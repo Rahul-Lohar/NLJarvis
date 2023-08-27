@@ -137,6 +137,15 @@
             "responses":[
                 "close"
             ]
+        },
+        {
+            "tag":"window",
+            "patterns":[
+                "switch window","change the window", "window","chnage window","switch the window"
+            ],
+            "responses":[
+                "window"
+            ]
         }
         
 

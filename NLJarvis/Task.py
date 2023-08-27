@@ -7,6 +7,7 @@ from Listen import listen
 from speak import Say
 from Dictapp import openappweb
 from Dictapp import closeappweb
+import time
 
 
 def Time():
@@ -71,6 +72,13 @@ def jokes():
     print(j)
     Say(j)
 
+def switch_window():
+    Say("Okay sir, Switching the window")
+    pyautogui.keyDown("alt")
+    pyautogui.press("tab")
+    time.sleep(1)
+    pyautogui.keyUp("alt")
+
 
 def NonInputExecution(query):
     query = str(query)
@@ -89,6 +97,8 @@ def NonInputExecution(query):
         cpu()
     elif ("tell me a joke" in query or "joke" in query):
         jokes()
+    elif ("Switch Window" in query or "window" in query):
+        switch_window()
 
 # Input Function
 
