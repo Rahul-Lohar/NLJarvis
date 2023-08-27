@@ -114,3 +114,6 @@ def InputExecution(tag, query):
     elif "close" in query:
         from Dictapp import closeappweb
         closeappweb(query)
+    elif "news" in query:
+        from NewsRead import latestnews
+        latestnews()
